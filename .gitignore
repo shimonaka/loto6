@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (if large)
+# loto6_data.js  # Uncomment if file is too large
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Qodo
+.qodo/
+

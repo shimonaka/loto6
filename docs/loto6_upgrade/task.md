@@ -1,0 +1,23 @@
+# Loto 6 Predictor Upgrade Task List
+
+- [x] Project Setup <!-- id: 0 -->
+    - [x] Create documentation directory <!-- id: 1 -->
+    - [x] Initialize implementation plan <!-- id: 2 -->
+- [x] Data Scraping Module <!-- id: 3 -->
+    - [x] Analyze HTML structure of historical pages (2019-2023) <!-- id: 4 -->
+    - [x] Analyze HTML structure of latest results page <!-- id: 5 -->
+    - [x] Implement scraper for historical data (iterating years) <!-- id: 6 -->
+    - [x] Implement scraper for latest data <!-- id: 7 -->
+    - [x] Deduce and verify URL patterns for 2000-2018 <!-- id: 8 -->
+    - [x] Create data merging and deduplication logic <!-- id: 9 -->
+- [x] Application Integration <!-- id: 10 -->
+    - [x] Refactor `loto6_predictor.html` to load data from external `loto6_data.js` <!-- id: 11 -->
+    - [x] Create Python updater script (`update_loto6.py`) to generate `loto6_data.js` <!-- id: 12 -->
+    - [x] Optimize updater for incremental updates (faster startup) <!-- id: 12-b -->
+    - [x] Create launcher script (`start.bat`) <!-- id: 13 -->
+- [x] UI/UX Improvements (Reflecting User Requests) <!-- id: 14 -->
+    - [x] Ensure "startup" requirement is met (Script execution flow) <!-- id: 15 -->
+- [x] Verification <!-- id: 16 -->
+    - [x] Verify data accuracy against source <!-- id: 17 -->
+    - [x] Verify HTML predictor loads new data correctly <!-- id: 18 -->
+    - [x] Create walkthrough <!-- id: 19 -->
