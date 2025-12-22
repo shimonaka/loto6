@@ -1,0 +1,27 @@
+{
+  "name": "loto6-predictor",
+  "version": "2.0.0",
+  "description": "LOTO6 Predictor - Streamlit application for lottery prediction",
+  "main": "update_loto6.js",
+  "scripts": {
+    "update": "node update_loto6.js",
+    "start": "streamlit run loto6_app.py",
+    "dev": "streamlit run loto6_app.py"
+  },
+  "keywords": [
+    "loto6",
+    "lottery",
+    "prediction",
+    "streamlit"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^23.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+

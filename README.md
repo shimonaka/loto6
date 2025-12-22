@@ -20,9 +20,17 @@ pip install -r requirements.txt
 
 ### 2. データの更新
 
-初回起動時またはデータ更新時：
+#### 方法1: Node.jsを使用（推奨）
 
 ```bash
+npm install
+npm run update
+```
+
+#### 方法2: Pythonを使用
+
+```bash
+pip install -r requirements.txt
 python update_loto6.py
 ```
 
@@ -70,11 +78,17 @@ run_app.bat
 
 ## 技術スタック
 
-- Python 3.x
-- Streamlit
-- Pandas
-- Requests
-- BeautifulSoup4
+### フロントエンド
+- HTML/CSS/JavaScript（`loto6_predictor.html` / `index.html`）
+- Streamlit（`loto6_app.py`）
+
+### データ更新
+- **Node.js版**（推奨）: `update_loto6.js` - GitHub Actionsで自動実行可能
+- **Python版**: `update_loto6.py` - ローカル実行用
+
+### 依存パッケージ
+- Python: Streamlit, Pandas, Requests, BeautifulSoup4
+- Node.js: jsdom
 
 ## 注意事項
 
