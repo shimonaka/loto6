@@ -1,5 +1,18 @@
 const LOTO6_DATA = [
   {
+    "round": 2064,
+    "date": "2025/12/29",
+    "numbers": [
+      2,
+      7,
+      24,
+      37,
+      39,
+      41
+    ],
+    "bonus": 3
+  },
+  {
     "round": 2063,
     "date": "2025/12/25",
     "numbers": [
